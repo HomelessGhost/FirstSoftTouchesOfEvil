@@ -1,1 +1,0 @@
-print('Nahoi idi')
