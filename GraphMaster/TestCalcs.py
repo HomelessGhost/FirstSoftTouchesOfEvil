@@ -115,7 +115,7 @@ class MainWindow(QMainWindow):
 
 
 app = QApplication(sys.argv)
-#style.use('dark_background')
+style.use('dark_background')
 window = MainWindow()
 window.show()
 exit(app.exec_())
