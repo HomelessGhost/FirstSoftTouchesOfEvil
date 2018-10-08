@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
 from GraphMaster.DsaGraphicalObjectsModel import DsaGraphicalObjectsModel
 import numpy as np
+from matplotlib import style
 import sys
 
 
@@ -114,6 +115,7 @@ class MainWindow(QMainWindow):
 
 
 app = QApplication(sys.argv)
+style.use('dark_background')
 window = MainWindow()
 window.show()
 exit(app.exec_())
